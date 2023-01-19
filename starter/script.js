@@ -33,8 +33,41 @@
 
 // Coding challenge
 
-const calcAverage = (a, b, c) => (a + b + c) / 3;
-console.log(calcAverage(3, 4, 5));
+// const calcAverage = (a, b, c) => (a + b + c) / 3;
+// console.log(calcAverage(3, 4, 5));
 
-// Test 1
-const scoreDolphins = calcAverage();
+// // Test 1
+// const scoreDolphins = calcAverage();
+
+// const friends = ["Mike", "Stev", "Peter"];
+
+// console.log(friends);
+
+// const years = new Array(1991, 1988, 2000, 1986);
+// console.log(friends[0]);
+
+// console.log(friends.length);
+
+const friends = ["Mike", "Stev", "Peter"];
+const newLength = friends.push("Su");
+console.log(friends);
+
+console.log(newLength);
+
+friends.unshift("D");
+console.log(friends);
+
+//remove
+//friends.pop();
+//friends.shift();
+
+console.log(friends.indexOf("Su"));
+console.log(friends.indexOf("D"));
+
+//check includes or not // conditional thing
+console.log(friends.includes("Su"));
+console.log(friends.includes("Ana"));
+
+if (friends.includes("Su")) {
+  console.log("You are so cool");
+}
